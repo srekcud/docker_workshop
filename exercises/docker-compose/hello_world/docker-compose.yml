@@ -1,0 +1,5 @@
+version: '2'
+services:
+  hello_world:
+    image: alpine
+    command: ["echo", 'Hello world']
