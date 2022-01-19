@@ -81,7 +81,6 @@ docker run --rm name
 docker container stats
 ```
 
-
 ```bash
 docker run -it name /bin/sh
 # -i = interactive
@@ -139,6 +138,12 @@ docker-compose run --rm php-cli
 1. recreate the docker exercice 3 with a docker-compose template
 1. Display the nginx default page on `localhost:9876` in your browser
 1. Display the nginx default page on `your.devops.is.the.best` in your browser
+
+## Dive
+
+We can now check the if your solution is optimal
+
+`dive image_name`
 
 ## Bibliography
 
