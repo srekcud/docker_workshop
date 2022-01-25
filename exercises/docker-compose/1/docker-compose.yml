@@ -1,0 +1,8 @@
+version: '2'
+services:
+  Who_is_the_best_framework:
+    image: exo2
+    command: ["cat", '/tmp/output.txt']
+    volumes:
+      - ./volumes/:/tmp/
+
